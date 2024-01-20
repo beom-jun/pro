@@ -1,0 +1,277 @@
+nav {
+    background-color: #1b1b1b;
+    padding: 2rem;
+    position: fixed;
+    }
+    
+    .nav-link {
+        color: #A5A5A5;
+      }
+    
+      .nav-link:hover {
+        color: white;
+      }
+    
+      .collapse {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    
+      .first-line-font {
+        font-size: 14px;
+      }
+    
+      .second-line-font {
+        font-size: 20px;
+      }
+    
+      .first-line-locate {
+        text-align: right;
+      }
+    
+      .search-query {
+        width: 360px;
+        height: 40;
+        padding-left: 30px;
+      padding-right: 30px;
+      background-color: black;
+      color: #A5A5A5;
+      border: 0px;
+      }
+    
+      .search-icon {
+        position: relative;
+        left: 30px;
+        color: #A5A5A5;
+      }
+
+
+
+.aditor{
+    color: white;
+    padding-top: 90px;
+    margin: 0 0 20px;
+}
+
+
+.bgcolor{
+    background-color: #AD6E6E;
+}
+
+.inner-radius{
+    border-radius: 3%;
+}
+
+
+.carousel{
+    top: 0;
+    left: 0;
+    width: 1240px;
+    height: 508px;
+  } 
+
+.carousel-item{
+    top: 0;
+    left: 0;
+    width: 1240px;
+    height: 508px;
+}
+
+.위치{
+    position: absolute;
+    left: 20%;
+}
+
+.위치2{
+    position: absolute;
+    right: -20%;
+}
+
+.carousel-indicators{
+    margin-right: 15%;
+    margin-bottom: 1rem;
+}
+
+.carousel-control-prev-icon{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-control-next-icon{
+    width: 100px;
+    height: 100px;
+}
+
+.card-padding{
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.aditor-posi{
+    position: relative;
+    left: 205px;
+}
+
+.card{
+    height: 8px;
+    border-radius: 10%;
+    background-color: #1b1b1b;
+    border-color: #1b1b1b;
+}
+
+
+.carousel-indicators {
+    margin-right: 15%;
+    margin-bottom: -30px;
+}
+
+.text-position{
+    position: relative;
+    left: 13rem;
+}
+
+.img-호버 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .img-호버:hover, .img-호버:focus, .img-호버:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+
+  .img-size{
+    position: relative;
+    width: 193.06px;
+    height: 360px;
+  }
+
+
+
+
+  footer{
+    background-color: black;
+    color: #a5a5a5;
+    text-decoration: none;
+    font-family: NotoSans,sans-serif;
+
+}
+
+.footer-notice{
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+    font-size: 18px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.footer-menu1{
+    font-size: 14px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.footer-menu2{
+    display: none;
+}
+
+.footer-info{
+    display: flex;
+    font-size: 18px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+
+.style{
+    padding-right: 10px;
+}
+
+
+.info-name{
+    margin-right: 14px;
+}
+
+.info-list{
+    text-decoration: none;
+    
+    
+}
+
+.btn-group{
+    padding-left:20%;
+}
+
+.btn{
+    height: 30px;
+    width: 180px;
+}
+
+.dropdown-menu{
+    --bs-dropdown-font-size: 0.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+a:hover{
+    color: #ff3838;
+
+}
+
+.third-line{
+    display: none;
+}
+
+@media screen and (max-width:48rem){
+    .footer-notice{
+        padding-left: 10%; 
+        padding-right: 10%; 
+    }
+
+    .notice{
+        font-size: small;
+    }
+
+    .footer-info{
+        padding-left: 10%;
+        padding-right: 10%; 
+    }
+
+    .info-list{
+        font-size: 14px;
+    }
+    .footer-menu1{
+        display: none;
+
+    }
+
+    .footer-menu2{
+        display: block;
+        padding-left: 10%;
+        padding-right: 10%; 
+    }
+
+    .btn-group{
+        display: none;
+    }
+
+    .third-line{
+        display: block;
+        text-align: center;
+        border-top: 1px solid #2f2f2f;
+    }
+}
